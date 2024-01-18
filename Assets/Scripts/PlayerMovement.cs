@@ -22,7 +22,6 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody rb;
 
-    // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -30,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         //groundcheck
